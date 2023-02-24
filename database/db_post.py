@@ -32,3 +32,5 @@ def delete(id:int, db:Session):
     db.delete(post)
     db.commit()
     return "ok"
+
+
